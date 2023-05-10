@@ -1,0 +1,52 @@
+.pocket-2-child {
+  position: absolute;
+  top: 885px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 428px;
+  height: 41px;
+}
+.streamlineinterface-edit-view-icon {
+  position: absolute;
+  top: 172px;
+  left: 192px;
+  width: 15px;
+  height: 14px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.div,
+.mad {
+  position: absolute;
+  display: inline-block;
+}
+.mad {
+  top: calc(50% - 198px);
+  left: 157px;
+  font-weight: 500;
+  width: 125px;
+  height: 20px;
+}
+.div {
+  top: 118px;
+  left: 144px;
+  font-size: var(--font-size-xs);
+  color: var(--color-deepskyblue-100);
+  width: 195px;
+  height: 24px;
+}
+.pocket-2 {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  background-image: url(./public/pocket2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+  text-align: left;
+  font-size: 11px;
+  color: #28ea32;
+  font-family: var(--font-inter);
+}

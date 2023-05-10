@@ -1,0 +1,59 @@
+.home-child,
+.home-inner,
+.home-item,
+.rectangle-div {
+  position: absolute;
+  top: 226px;
+  left: 55px;
+  border-radius: var(--br-2xl);
+  background-color: #e8530f;
+  width: 290px;
+  height: 42px;
+}
+.home-inner,
+.home-item,
+.rectangle-div {
+  top: 296px;
+  background-color: #00aff0;
+}
+.home-inner,
+.rectangle-div {
+  top: 366px;
+  background-color: #3e63b4;
+}
+.rectangle-div {
+  top: 433px;
+  background-color: #0084b4;
+}
+.franais {
+  position: absolute;
+  top: 308px;
+  left: 161px;
+}
+.anglais,
+.b,
+.espaol {
+  position: absolute;
+  top: 236px;
+  left: 177px;
+}
+.anglais,
+.espaol {
+  top: 379px;
+  left: 170px;
+}
+.espaol {
+  top: 445px;
+}
+.home {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
